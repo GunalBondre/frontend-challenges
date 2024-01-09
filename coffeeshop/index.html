@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Coffee list</title>
+		<link rel="stylesheet" href="./style.css" />
+	</head>
+	<body>
+		<main>
+			<div class="main-bg">
+				<img src="./assets/bg-cafe.jpg" alt="" />
+			</div>
+			<div class="container list-section">
+				<div class="intro">
+					<div class="title">
+						<h1>Our Collection</h1>
+						<p>
+							Introducing our Coffee Collection, a selection of unique coffees
+							from different roast types and origins, expertly roasted in small
+							batches and shipped fresh weekly.
+						</p>
+					</div>
+				</div>
+				<div class="tabs-container">
+					<div class="buttons">
+						<button class="tab-button active" onclick="openTab('tab1', this)">
+							All Products
+						</button>
+						<button class="tab-button" onclick="openTab('tab2', this)">
+							Available Now
+						</button>
+					</div>
+
+					<div id="tab1" class="tab-content">
+						<div class="grid">
+							<div class="card">
+								<div class="card__image" id="cardImg">
+									<img src="./assets/image1.jpg" alt="image1" id="img" />
+									<div class="card__tag" id="tag">Popular</div>
+								</div>
+								<div class="card__content">
+									<div class="card__title" id="cardTitle">Cappuccino</div>
+									<div class="card__price" id="cardPrice">$5.20</div>
+								</div>
+								<div class="card__rating">
+									<div class="rating">
+										<img
+											src="./assets/Star_fill.svg"
+											id="imgRating"
+											alt="rating"
+										/>
+										<span class="votes" id="votes">4.6 (60 votes)</span>
+									</div>
+								</div>
+							</div>
+							<div class="card">
+								<div class="card__image" id="cardImg">
+									<img src="./assets/image2.jpg" alt="image1" id="img" />
+									<div class="card__tag" id="tag">Popular</div>
+								</div>
+								<div class="card__content">
+									<div class="card__title" id="cardTitle">Expresso</div>
+									<div class="card__price" id="cardPrice">$4.20</div>
+								</div>
+								<div class="card__rating">
+									<div class="rating">
+										<img
+											src="./assets/Star_fill.svg"
+											id="imgRating"
+											alt="rating"
+										/>
+										<span class="votes" id="votes">4.8 (40 votes)</span>
+									</div>
+								</div>
+							</div>
+							<div class="card">
+								<div class="card__image" id="cardImg">
+									<img src="./assets/image3.jpg" alt="image1" id="img" />
+								</div>
+								<div class="card__content">
+									<div class="card__title" id="cardTitle">House Coffee</div>
+									<div class="card__price" id="cardPrice">$7.20</div>
+								</div>
+								<div class="card__rating">
+									<div class="rating">
+										<img
+											src="./assets/Star_fill.svg"
+											id="imgRating"
+											alt="rating"
+										/>
+										<span class="votes" id="votes"> 4.2 (90 votes)</span>
+									</div>
+								</div>
+							</div>
+							<div class="card">
+								<div class="card__image" id="cardImg">
+									<img src="./assets/image4.jpg" alt="image1" id="img" />
+								</div>
+								<div class="card__content">
+									<div class="card__title" id="cardTitle">Caffe Latte</div>
+									<div class="card__price" id="cardPrice">$5.80</div>
+								</div>
+								<div class="card__rating">
+									<div class="rating">
+										<img
+											src="./assets/Star_fill.svg"
+											id="imgRating"
+											alt="rating"
+										/>
+										<span class="votes" id="votes">4.6 (60 votes)</span>
+									</div>
+								</div>
+							</div>
+							<div class="card">
+								<div class="card__image" id="cardImg">
+									<img src="./assets/image1.jpg" alt="image1" id="img" />
+								</div>
+								<div class="card__content">
+									<div class="card__title" id="cardTitle">
+										Valentine Special
+									</div>
+									<div class="card__price" id="cardPrice">$9.20</div>
+								</div>
+								<div class="card__rating">
+									<img src="./assets/Star.svg" id="imgRating" alt="rating" />
+									<div class="rating">No rating</div>
+								</div>
+							</div>
+							<div class="card">
+								<div class="card__image" id="cardImg">
+									<img src="./assets/image2.jpg" alt="image1" id="img" />
+								</div>
+								<div class="card__content">
+									<div class="card__title" id="cardTitle">Chocolate Coffee</div>
+									<div class="card__price" id="cardPrice">$7.20</div>
+								</div>
+								<div class="card__rating">
+									<div class="rating">
+										<img
+											src="./assets/Star_fill.svg"
+											id="imgRating"
+											alt="rating"
+										/>
+										<span class="votes" id="votes">4.8(120 votes)</span>
+									</div>
+									<div class="quantity">Sold out</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="tab2" class="tab-content">
+						<div class="grid">
+							<div class="card" id="card3">
+								<div class="card__image" id="cardImg">
+									<img src="./assets/image3.jpg" alt="image1" id="img" />
+								</div>
+								<div class="card__content">
+									<div class="card__title" id="cardTitle">House Coffee</div>
+									<div class="card__price" id="cardPrice">$7.20</div>
+								</div>
+								<div class="card__rating">
+									<div class="rating">
+										<img
+											src="./assets/Star_fill.svg"
+											id="imgRating"
+											alt="rating"
+										/>
+										<span class="votes" id="votes"> 4.2 (90 votes)</span>
+									</div>
+								</div>
+							</div>
+							<div class="card" id="card4">
+								<div class="card__image" id="cardImg">
+									<img src="./assets/image4.jpg" alt="image1" id="img" />
+								</div>
+								<div class="card__content">
+									<div class="card__title" id="cardTitle">Caffe Latte</div>
+									<div class="card__price" id="cardPrice">$5.80</div>
+								</div>
+								<div class="card__rating">
+									<div class="rating">
+										<img
+											src="./assets/Star_fill.svg"
+											id="imgRating"
+											alt="rating"
+										/>
+										<span class="votes" id="votes">4.6 (60 votes)</span>
+									</div>
+								</div>
+							</div>
+							<div class="card" id="card1">
+								<div class="card__image" id="cardImg">
+									<img src="./assets/image1.jpg" alt="image1" id="img" />
+									<div class="card__tag" id="tag">Popular</div>
+								</div>
+								<div class="card__content">
+									<div class="card__title" id="cardTitle">Cappuccino</div>
+									<div class="card__price" id="cardPrice">$5.20</div>
+								</div>
+								<div class="card__rating">
+									<div class="rating">
+										<img
+											src="./assets/Star_fill.svg"
+											id="imgRating"
+											alt="rating"
+										/>
+										<span class="votes" id="votes">4.6 (60 votes)</span>
+									</div>
+								</div>
+							</div>
+							<div class="card" id="card2">
+								<div class="card__image" id="cardImg">
+									<img src="./assets/image2.jpg" alt="image1" id="img" />
+									<div class="card__tag" id="tag">Popular</div>
+								</div>
+								<div class="card__content">
+									<div class="card__title" id="cardTitle">Expresso</div>
+									<div class="card__price" id="cardPrice">$4.20</div>
+								</div>
+								<div class="card__rating">
+									<div class="rating">
+										<img
+											src="./assets/Star_fill.svg"
+											id="imgRating"
+											alt="rating"
+										/>
+										<span class="votes" id="votes">4.8 (40 votes)</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<script src="./script.js"></script>
+	</body>
+</html>
